@@ -54,28 +54,7 @@ Best to just do clean install.
 * Bottom right is viewer panel and other things
 * You can customize this and color (prefs) 
 
-## Getting comfortable
-
-* can type basic things into R
-* Try to type addition in console
-* Now you know that DS workflow is typically more involved than typing in and dont want to run code
-* Try to do keyboard shortcut to write in editor and run command 
-* Notice shoots down
-* Let's try this again now to assign object
-* notice when run you get something in global environment 
-* Can manipulate that just like in python
-* But we want to do data
-* So let's use r's c() opertor to make whats called a vector
-* Compared to Python, first major difference of vectorzation
-* Because for statiticians, numbers is what typically goes in 
-* There are things like lists in R, but beyond scope of intro now
-* what happens if we add or multiply vector
-* All at once, no numpy needed! 
-
-* This data structure will be a bit more compicated (do I go here to dataframe and $ ?)
-* See hands on programming with R if you want this or r for data science 
-
-* Install tidvyverse 
+* Get packages with install (try this) 
 
 
 ## Running a Script
