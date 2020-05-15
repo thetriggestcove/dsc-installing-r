@@ -44,7 +44,6 @@ R `4.0.0` is only requires about 170MB.
 
 If you then open up the package that is downloaded (Chrome shown here), you can just follow the install instructions in the install wizard 
 
-
 ![](img/r-install-4.png)
 ![](img/r-install-5.png)
 
@@ -65,10 +64,7 @@ It will look something like this:
 
 It works like a calculator just like Python! 
 
-
-![](img/r-install-8.png)
-
-To exit type 
+To exit type: 
 
 ```{r}
 quit()
@@ -79,13 +75,12 @@ Then tell it `n` for no saying you don't want to save your workspace!
 Now unless you're some sort of masochist, you're never going to actually run R from your terminal for your data science projects. 
 We need to get an IDE to help us out!
 
-> Check point!
 
 ## RStudio
 
 Just like Python, there are many ways to interact with R as a programming language.
 One of the most popular choices at the moment, for reasons that will be made clear very soon, is [RStudio]().
-It can be a bit confusing when getting into the world of R because [RStudio]() the IDE is created by [RStudio PBC]() the company.
+It can be a bit confusing when getting into the world of R because [RStudio](https://rstudio.com/products/rstudio/download/) the IDE is created by [RStudio PBC](https://rstudio.com/) the company.
 As a fun fact, RStudio the company just announced that it is now a Public Benefit Corporation meaning that "corporate decisions must both align with this mission, as well as balance the interests of community, customers, employees, and shareholders".
 That's not super relevant to our install, but if you do talk to anyone in the R world, this was a very big deal.
 You can read more about it [here](https://blog.rstudio.com/2020/01/29/rstudio-pbc/). 
@@ -93,6 +88,7 @@ You can read more about it [here](https://blog.rstudio.com/2020/01/29/rstudio-pb
 So how do we get RStudio the IDE?
 Let's navigate over to `RStudio.com` and again follow this set of install instructions.
 
+![](img/r-install-8.png)
 * r-install-8.png 
 ![](img/r-install-7.png)
 
