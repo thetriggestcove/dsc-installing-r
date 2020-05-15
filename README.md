@@ -2,7 +2,7 @@
 
 ## Introduction
 
-In this lesson we'll get R installed on your computer and begin to get you familiar with [RStudio](https://rstudio.com/), a data science that many useR's like! 
+In this lesson we'll get R installed on your computer and begin to get you familiar with [RStudio](https://rstudio.com/), a data science IDE that many useRs like! 
 
 ## Objectives
 
@@ -19,7 +19,7 @@ By the end of this lesson, you should be able to:
 
 Over the course of the next few lessons we **won't** be running R in your browser, but rather putting it on your local machine.
 You might already have some software that could run R, but in order to make sure everything works please be sure to follow these steps exactly so everything works well!
-This is especially true of you try to use the RStudio that comes along with [Anaconda](https://www.anaconda.com/); it's best to just do a fresh iinstall of both R and RStudio.
+This is especially true of you try to use the RStudio that comes along with [Anaconda](https://www.anaconda.com/); it's best to just do a fresh install of both R and RStudio.
 Luckily R tends to be much easier to install and manage than Python. 
 
 So where do you get all things R?
@@ -31,9 +31,11 @@ If you navigate to `https://cran.r-project.org/` you will see this page here:
 Follow the links in the top box of `Download and Install R` to get R on your computer.
 The following series of screenshots will show what this process looks like if you're doing this as of May 2020 on an OSX system. 
 
-> CHECK THIS 
+After you click `Download R for (Mac) OS X`, you should then see this image below:
 
 <div style="text-align:center"><img src="img/r-install-2.png" /></div>
+
+If you then click on the where it says `R-4.x.x.pkg`, R will download on your computer. 
 
 ![](img/r-install-3.png)
 
@@ -45,18 +47,21 @@ If you then open up the package that is downloaded (Chrome shown here), you can 
 
 ![](img/r-install-4.png)
 ![](img/r-install-5.png)
-![](img/r-install-6.png)
 
 You can verify that R has been installed by opening up your terminal and typing in `R`.
 
-![](img/r-install-7.png)
+![](img/r-install-6.png)
 
-Try to type in somehing simple like 
+Try to type in somehing simple like:
 
-
-``{r}
+```{r}
 2 + 2
 ```
+
+into the console.
+It will look something like this: 
+
+![](img/r-install-7.png)
 
 It works like a calculator just like Python! 
 
