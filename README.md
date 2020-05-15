@@ -1,5 +1,15 @@
 # Installing R 
 
+* [ ] Edit this text
+* [ ] Add image paths
+* [ ] Add images
+* [ ] Create .rproj 
+* [ ] Creat Markdown 
+
+## Introduction
+
+In this lesson we'll get R installed on your computer and begin to get you familiar with [RStudio](), a data science [IDE]() that many useR's like! 
+
 ## Objectives
 
 By the end of this lesson, you should be able to:
@@ -13,57 +23,164 @@ By the end of this lesson, you should be able to:
 * [ ] Change color of RStudio 
 * [ ] Get R Markdown to work 
 
-## Base R 
+## Getting R 
+
+Over the course of the next few lessons we won't be running R in your browser, but rather putting it on your local machine.
+You might already have some software that could run R, but in order to make sure everything works please be sure to follow these steps exactly so everything works well!
+This is especially true of you try to use the RStudio that comes along with [Anaconda](); it's best to just do a fresh iinstall of both R and RStudio.
+Luckily R tends to be much easier to install and manage than Python. 
+
+So where do you get all things R?
+The most up-to-date version of R can always be found on The Comprehensive R Archive Network or [CRAN](https://cran.r-project.org/).
+If you navigate to `https://cran.r-project.org/` you will see this page here:
+
+* CRAN IMG
+
+Follow the links in the top box of `Download and Install R` to get R on your computer.
+The following series of screenshots will show what this process looks like if you're doing this as of May 2020 on an OSX system. 
+
+* Install 1
+
+* Install 2
+
+You'll notice that R downloads pretty fast if you're on a decent internet connection.
+R `4.0.0` is only requires about 170MB. 
+
+If you then open up the package that is downloaded (Chrome shown here), you can just follow the install instructions in the install wizard 
+
+* Install 3
+
+* Install 4
+
+* Install 5
+
+You can verify that R has been installed by opening up your terminal and typing in `R`.
+
+* R Install 6.png 
+
+Try to type in somehing simple like 
 
 
-There is no online thing for R, need to run this on computer.
-Luckly this is much easier to do with R than Python. 
+``{r}
+2 + 2
+```
 
-Note you want to follow these steps!
-Just because you have RStudio from conda, not going to always work.
-Best to just do clean install. 
+It works like a calculator just like Python! 
 
-- R is programming language that just had its 20th birthday
-- Currenlty on 4.0
-- Grows quickly and most of it lives on CRAN
-- Go to cran to get it 
-- Follow on screen instructions to get package
-- Mac will do the rest
-- Once it's done, can verify it's on computer by going to command line
-- type R
-- but doing it like this is insane 
-- so either x out of termanal or quit() then don't save workspace
+* R Install 7 
+
+To exit type 
+
+```{r}
+quit()
+```
+
+Then tell it `n` for no saying you don't want to save your workspace! 
+
+Now unless you're some sort of masochist, you're never going to actually run R from your terminal for your data science projects. 
+We need to get an IDE to help us out!
 
 ## RStudio
 
-- Many IDEs (define) are avalible for all coding
-- The one that most people use for R is RStudio 
-- Can be confusing bc RStudio the IDE comes from Rstudio (the company) 
-- Going to go over to RStudio
-- Then here to download
-- Launch it now! 
+Just like Python, there are many ways to interact with R as a programming language.
+One of the most popular choices at the moment, for reasons that will be made clear very soon, is [RStudio]().
+It can be a bit confusing when getting into the world of R because [RStudio]() the IDE is created by [RStudio PBC]() the company.
+As a fun fact, RStudio the company just announced that it is now a Public Benefit Corporation meaning that _____.
+That's not super relevant to our install, but if you do talk to anyone in the R world, this was a very big deal. 
+
+So how do we get RStudio the IDE?
+Let's navigate over to `RStudio.com` and again follow this set of install instructions.
+
+* r-install-8.png 
+
+Now if you're following these install instructions near May of 2020, you'll notice that RStudio's homepage is actually sshowing off a recent push that the company has been doing to have RStudio be able to run Python!
+You can read more about that [here at this link](https://blog.rstudio.com/2020/04/02/rstudio-connect-1-8-2/).
+
+But let's not get distracted! 
+If you go from the home page and hover over products you can get a link to find where to get RStudio
+
+* r install 9 
+
+From here we want to get RStudio for desktop 
+
+* r install 10
+
+Clicking this will take you down the page to this next image where you actually get RStudio
+
+* r install 11
+
+We of course want the free one!
+
+* R install 12 
+
+And this takes you to where all the versions of RStudio live.
+
+* R install 13.png
+
+We can install Rstudio with just dragging and dropping on OSX.
+
+
+* r intall 14
+
+Once this has been installed with the drag and drop, we just double click to open up Rstudio.
 
 ## RStudio IDE 
 
-* It's a GUI for all things R 
-* When launch typically have four panels 
-* if not and is three, click here
-* Top left is script editor
-* Bottom left is console
-* top right is environment and few other things
-* Bottom right is viewer panel and other things
-* You can customize this and color (prefs) 
+RStudio is the GUI for all things R.
+When you first open RStudio, typically you will see four separate panels.
 
-* Get packages with install (try this) 
+On the top left is your script editor where you write your code, on the bottom left you have your console where your code gets run.
+On the top right you see the environment-- something we'll talk about soon-- and then on the bottom right we see our Viewer. 
+You can change the positions of this if you'd like and [can find instructions to do that here]() and can also change the color schemes of your editor if you navigate to `HERE>` on OSX.
 
+Let's first try that 
+
+* install r-13
+
+Now while we're here in Preferences, let's also do something that's goign to save you a lot of pain in the long run which is UNTICK the save data 
+
+* install r 14
+
+Alright, let's now close this out and try to run somethign!
 
 ## Running a Script
 
-* Now won't go too much into script 
-* but now open up this tips script
-* Imagine we are in a class and all goign to america with intrernational 
-* Need to elarna bout tips 
-* Now note that this is nto just base R, going to run tidyverse 
-* can Click run and it goes
+Now we've done a lot here to get both R and RStudio installed and set up here, let's end with running one script!
+In this local repository for this lesson, you'll find a folder called `my first r run`.
+
+First, clone this repo to your local machine with the following commands.
+
+```
+git clone www.github.com/learn-co-curriculum/installing-r.git
+```
+
+Then `cd` into the directory and open the `.Rproj` file in there.
+
+```
+cd installing-r
+open installing-r.rproj
+```
+
+Doing this will open up another RStudio on your computer.
+The .Rproj file basically walls off the rest of your comptuer so RStudio thinks the entire universe of your project lives within this area.
+Using .Rproj files helps eliminate absolute paths and makes it so it's a lot easer to get your R code to run on others computers.
+
+With this file open, if you then go to where it says `Files` in the bottom right panel and then click "Tips Coverter.Rmd" you will open up your first RMarkdown file (the Juypter notebook of R).
+
+
+This file contains the data and narrative we will be using the next few lessons.
+We'll describe it more at the start of the next lesson!
+
+With this open, let's just click where it says `Knit` at the top to see what happens.
+
+* install 15
+
+This will run the RMarkdown script and create a little report for you. 
+Notice it's an HTML file of your analysis meaning you can now just put the `file.html` that was just created on any website! 
+RMarkdown allows data scientists to make quick reports in HTML, LaTeX, or even Word formats.
+We just wanted to show off this cool tool before working in R. 
+
+
+
 
  
