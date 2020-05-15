@@ -1,8 +1,6 @@
 # Installing R 
 
 * [ ] Edit this text
-* [ ] Add image paths
-* [ ] Add images
 * [ ] Create .rproj 
 * [ ] Creat Markdown 
 
@@ -39,24 +37,23 @@ If you navigate to `https://cran.r-project.org/` you will see this page here:
 Follow the links in the top box of `Download and Install R` to get R on your computer.
 The following series of screenshots will show what this process looks like if you're doing this as of May 2020 on an OSX system. 
 
-* Install 1
 
-* Install 2
+![](img/r-install-1.png)
 
+![](img/r-install-1.png)
 You'll notice that R downloads pretty fast if you're on a decent internet connection.
 R `4.0.0` is only requires about 170MB. 
 
 If you then open up the package that is downloaded (Chrome shown here), you can just follow the install instructions in the install wizard 
 
-* Install 3
 
-* Install 4
-
-* Install 5
+![](img/r-install-1.png)
+![](img/r-install-1.png)
+![](img/r-install-1.png)
 
 You can verify that R has been installed by opening up your terminal and typing in `R`.
 
-* R Install 6.png 
+![](img/r-install-6.png)
 
 Try to type in somehing simple like 
 
@@ -67,7 +64,8 @@ Try to type in somehing simple like
 
 It works like a calculator just like Python! 
 
-* R Install 7 
+
+![](img/r-install-7.png)
 
 To exit type 
 
@@ -85,13 +83,15 @@ We need to get an IDE to help us out!
 Just like Python, there are many ways to interact with R as a programming language.
 One of the most popular choices at the moment, for reasons that will be made clear very soon, is [RStudio]().
 It can be a bit confusing when getting into the world of R because [RStudio]() the IDE is created by [RStudio PBC]() the company.
-As a fun fact, RStudio the company just announced that it is now a Public Benefit Corporation meaning that _____.
-That's not super relevant to our install, but if you do talk to anyone in the R world, this was a very big deal. 
+As a fun fact, RStudio the company just announced that it is now a Public Benefit Corporation meaning that "corporate decisions must both align with this mission, as well as balance the interests of community, customers, employees, and shareholders".
+That's not super relevant to our install, but if you do talk to anyone in the R world, this was a very big deal.
+You can read more about it [here](https://blog.rstudio.com/2020/01/29/rstudio-pbc/). 
 
 So how do we get RStudio the IDE?
 Let's navigate over to `RStudio.com` and again follow this set of install instructions.
 
 * r-install-8.png 
+![](img/r-install-7.png)
 
 Now if you're following these install instructions near May of 2020, you'll notice that RStudio's homepage is actually sshowing off a recent push that the company has been doing to have RStudio be able to run Python!
 You can read more about that [here at this link](https://blog.rstudio.com/2020/04/02/rstudio-connect-1-8-2/).
@@ -99,27 +99,33 @@ You can read more about that [here at this link](https://blog.rstudio.com/2020/0
 But let's not get distracted! 
 If you go from the home page and hover over products you can get a link to find where to get RStudio
 
+![](img/r-install-7.png)
 * r install 9 
 
 From here we want to get RStudio for desktop 
 
 * r install 10
+![](img/r-install-7.png)
 
 Clicking this will take you down the page to this next image where you actually get RStudio
 
 * r install 11
+![](img/r-install-7.png)
 
 We of course want the free one!
 
 * R install 12 
+![](img/r-install-7.png)
 
 And this takes you to where all the versions of RStudio live.
 
 * R install 13.png
+![](img/r-install-7.png)
 
 We can install Rstudio with just dragging and dropping on OSX.
 
 
+![](img/r-install-7.png)
 * r intall 14
 
 Once this has been installed with the drag and drop, we just double click to open up Rstudio.
@@ -136,10 +142,12 @@ You can change the positions of this if you'd like and [can find instructions to
 Let's first try that 
 
 * install r-13
+![](img/r-install-7.png)
 
 Now while we're here in Preferences, let's also do something that's goign to save you a lot of pain in the long run which is UNTICK the save data 
 
 * install r 14
+![](img/r-install-7.png)
 
 Alright, let's now close this out and try to run somethign!
 
@@ -173,6 +181,7 @@ We'll describe it more at the start of the next lesson!
 
 With this open, let's just click where it says `Knit` at the top to see what happens.
 
+![](img/r-install-7.png)
 * install 15
 
 This will run the RMarkdown script and create a little report for you. 
