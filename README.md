@@ -183,6 +183,8 @@ Note here that because you've done a fresh install of R, you might be prompted t
 The first time you run this, you will also see something like this which asks you if you want to install the library (or suite of libraries we're going to use) this time.
 Make sure to also install this and say `Yes` when it asks you at the command prompt to install everything! 
 
+![](img/installwarning.png)
+
 Typically we would do this at the command line with something like:
 
 ```{r}
