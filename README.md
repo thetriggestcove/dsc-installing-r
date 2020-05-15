@@ -198,6 +198,8 @@ Notice it's an HTML file of your analysis meaning you can now just put the `file
 RMarkdown allows data scientists to make quick reports in HTML, LaTeX, or even Word formats.
 We just wanted to show off this cool tool before working in R. 
 
+![](img/faking-seaborn.png)
+
 ## Conclusions
 
 Go make yourself a coffee!
