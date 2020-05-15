@@ -89,45 +89,36 @@ So how do we get RStudio the IDE?
 Let's navigate over to `RStudio.com` and again follow this set of install instructions.
 
 ![](img/r-install-8.png)
-* r-install-8.png 
-![](img/r-install-7.png)
 
-Now if you're following these install instructions near May of 2020, you'll notice that RStudio's homepage is actually sshowing off a recent push that the company has been doing to have RStudio be able to run Python!
+Now if you're following these install instructions near May of 2020, you'll notice that RStudio's homepage is actually showing off a recent push that the company has been doing to have RStudio be able to run Python!
 You can read more about that [here at this link](https://blog.rstudio.com/2020/04/02/rstudio-connect-1-8-2/).
 
 But let's not get distracted! 
 If you go from the home page and hover over products you can get a link to find where to get RStudio
 
-![](img/r-install-7.png)
-* r install 9 
+![](img/r-install-9.png)
 
-From here we want to get RStudio for desktop 
+From here we want to get RStudio for desktop:
 
-* r install 10
-![](img/r-install-7.png)
+![](img/r-install-10.png)
 
 Clicking this will take you down the page to this next image where you actually get RStudio
 
-* r install 11
-![](img/r-install-7.png)
+![](img/r-install-11.png)
 
-We of course want the free one!
+We of course want the free, open source one!
 
-* R install 12 
-![](img/r-install-7.png)
+![](img/r-install-12.png)
 
 And this takes you to where all the versions of RStudio live.
 
-* R install 13.png
-![](img/r-install-7.png)
+![](img/r-install-13.png)
 
 We can install Rstudio with just dragging and dropping on OSX.
 
+![](img/r-install-14.png)
 
-![](img/r-install-7.png)
-* r intall 14
-
-Once this has been installed with the drag and drop, we just double click to open up Rstudio.
+Once this has been installed with the drag and drop, we just double click to open up RStudio.
 
 ## RStudio IDE 
 
