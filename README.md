@@ -31,7 +31,9 @@ If you navigate to `https://cran.r-project.org/` you will see this page here:
 Follow the links in the top box of `Download and Install R` to get R on your computer.
 The following series of screenshots will show what this process looks like if you're doing this as of May 2020 on an OSX system. 
 
-![](img/r-install-2.png)
+> CHECK THIS 
+
+<div style="text-align:center"><img src="img/r-install-2.png" /></div>
 
 ![](img/r-install-3.png)
 
