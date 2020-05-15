@@ -34,7 +34,7 @@ So where do you get all things R?
 The most up-to-date version of R can always be found on The Comprehensive R Archive Network or [CRAN](https://cran.r-project.org/).
 If you navigate to `https://cran.r-project.org/` you will see this page here:
 
-* CRAN IMG
+![](img/r-install-1.png)
 
 Follow the links in the top box of `Download and Install R` to get R on your computer.
 The following series of screenshots will show what this process looks like if you're doing this as of May 2020 on an OSX system. 
