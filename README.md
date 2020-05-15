@@ -1,12 +1,8 @@
 # Installing R 
 
-* [ ] Edit this text
-* [ ] Create .rproj 
-* [ ] Creat Markdown 
-
 ## Introduction
 
-In this lesson we'll get R installed on your computer and begin to get you familiar with [RStudio](), a data science [IDE]() that many useR's like! 
+In this lesson we'll get R installed on your computer and begin to get you familiar with [RStudio](https://rstudio.com/), a data science that many useR's like! 
 
 ## Objectives
 
@@ -14,18 +10,16 @@ By the end of this lesson, you should be able to:
 
 * [ ] Have base R installed on a computer
 * [ ] Have Rstudio installed on their computer
-* [ ] Install the tidyverse 
-* [ ] Run commands in editor, notice that it shows in global environment 
-* [ ] Execute tips script using library 
-* [ ] Examine tips output in console 
-* [ ] Change color of RStudio 
-* [ ] Get R Markdown to work 
+* [ ] Install the tidyverse !!!!!!!!!!!!!! 
+* [ ] Change color scheme of RStudio 
+* [ ] Disable RStudio's default saving of .RData 
+* [ ] Run your first RMarkdown script
 
 ## Getting R 
 
-Over the course of the next few lessons we won't be running R in your browser, but rather putting it on your local machine.
+Over the course of the next few lessons we **won't** be running R in your browser, but rather putting it on your local machine.
 You might already have some software that could run R, but in order to make sure everything works please be sure to follow these steps exactly so everything works well!
-This is especially true of you try to use the RStudio that comes along with [Anaconda](); it's best to just do a fresh iinstall of both R and RStudio.
+This is especially true of you try to use the RStudio that comes along with [Anaconda](https://www.anaconda.com/); it's best to just do a fresh iinstall of both R and RStudio.
 Luckily R tends to be much easier to install and manage than Python. 
 
 So where do you get all things R?
@@ -37,23 +31,23 @@ If you navigate to `https://cran.r-project.org/` you will see this page here:
 Follow the links in the top box of `Download and Install R` to get R on your computer.
 The following series of screenshots will show what this process looks like if you're doing this as of May 2020 on an OSX system. 
 
+![](img/r-install-2.png)
 
-![](img/r-install-1.png)
+![](img/r-install-3.png)
 
-![](img/r-install-1.png)
 You'll notice that R downloads pretty fast if you're on a decent internet connection.
 R `4.0.0` is only requires about 170MB. 
 
 If you then open up the package that is downloaded (Chrome shown here), you can just follow the install instructions in the install wizard 
 
 
-![](img/r-install-1.png)
-![](img/r-install-1.png)
-![](img/r-install-1.png)
+![](img/r-install-4.png)
+![](img/r-install-5.png)
+![](img/r-install-6.png)
 
 You can verify that R has been installed by opening up your terminal and typing in `R`.
 
-![](img/r-install-6.png)
+![](img/r-install-7.png)
 
 Try to type in somehing simple like 
 
@@ -65,7 +59,7 @@ Try to type in somehing simple like
 It works like a calculator just like Python! 
 
 
-![](img/r-install-7.png)
+![](img/r-install-8.png)
 
 To exit type 
 
@@ -77,6 +71,8 @@ Then tell it `n` for no saying you don't want to save your workspace!
 
 Now unless you're some sort of masochist, you're never going to actually run R from your terminal for your data science projects. 
 We need to get an IDE to help us out!
+
+> Check point!
 
 ## RStudio
 
