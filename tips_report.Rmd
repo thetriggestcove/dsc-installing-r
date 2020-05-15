@@ -1,0 +1,52 @@
+---
+title: "Tips Report"
+author: "Dave"
+date: "15/05/2020"
+output: html_document
+---
+
+Imagine your you and your colleagues are teaching a lesson with the `tips.csv` dataset to group of students from different countries (England, Japan, India) who are about to take their first visit to the United State of America.
+To get your students used to the idea of how much they are expected to tip their servers, we need to make new columns that convert the USD column to pounds, yen, and Australian dollars.
+
+Note we're going to do this the `tidyverse` way! 
+
+```{r}
+library(tidyverse)
+
+tips <- read_csv("tips.csv")
+
+converted_tips <- tips %>% 
+  select(-X1) %>% 
+  mutate(gbp_total= total_bill * 0.81) %>%
+  mutate(gbp_tips = tip * 0.81) %>%
+  mutate(yen_total = total_bill * 106) %>%
+  mutate(yen_tips = tip * 106) %>%
+  mutate(aus_total = total_bill * 0.64) %>%
+  mutate(aus_tips = tip * 0.64)
+
+# Uncomment if you want to write the file! 
+# write_csv(converted_tips, "converted_tips.csv")
+```
+
+
+Let's also make a ggplot and recreate what's in the [seaborn](https://seaborn.pydata.org/introduction.html) documentation for the fun of it with a few extra lines of code.
+
+```{r}
+tips %>%
+  ggplot(aes(
+    x = total_bill,
+    y = tip,
+    color = smoker,
+    shape = smoker,
+    size = size
+  )) +
+  geom_point() +
+  facet_wrap( ~ time) +
+  labs(x = "Total Bill",
+       y = "Tip",
+       title = "Tips Predict Total Bill",
+       subtitle = "Split by Time and Smoker")
+  
+  
+```
+

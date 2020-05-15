@@ -10,7 +10,6 @@ By the end of this lesson, you should be able to:
 
 * [ ] Have base R installed on a computer
 * [ ] Have Rstudio installed on their computer
-* [ ] Install the tidyverse !!!!!!!!!!!!!! 
 * [ ] Change color scheme of RStudio 
 * [ ] Disable RStudio's default saving of .RData 
 * [ ] Run your first RMarkdown script
@@ -118,41 +117,46 @@ We can install Rstudio with just dragging and dropping on OSX.
 
 ![](img/r-install-14.png)
 
-Once this has been installed with the drag and drop, we just double click to open up RStudio.
+Once this has been installed with the drag and drop, we just double click to open up RStudio! 
 
 ## RStudio IDE 
 
 RStudio is the GUI for all things R.
 When you first open RStudio, typically you will see four separate panels.
 
+![](img/rstudio-1.png)
+
 On the top left is your script editor where you write your code, on the bottom left you have your console where your code gets run.
 On the top right you see the environment-- something we'll talk about soon-- and then on the bottom right we see our Viewer. 
-You can change the positions of this if you'd like and [can find instructions to do that here]() and can also change the color schemes of your editor if you navigate to `HERE>` on OSX.
+You can change the positions of this if you'd like and [can find instructions to do that here](https://support.rstudio.com/hc/en-us/articles/200549016-Customizing-RStudio) and can also change the color schemes of your editor if you navigate to the preferences.
 
-Let's first try that 
+Let's first try that!
 
-* install r-13
-![](img/r-install-7.png)
+I'd like you to go in the top toolbar then select `File > Preferences ...`.
 
-Now while we're here in Preferences, let's also do something that's goign to save you a lot of pain in the long run which is UNTICK the save data 
+![](img/rstudio-2.png)
 
-* install r 14
-![](img/r-install-7.png)
+We can change here to `Solarized Dark`. 
 
-Alright, let's now close this out and try to run somethign!
+Now while we're here in Preferences, let's also do something that's going to save you a lot of pain in the long run which is make the default behavior to never save your workspace.
+
+![](img/rstudio-3.png)
+
+![](img/rstudio-4.png)
+
+Alright, let's now close this out and try to run something!
+
+In order to do this, first close out RStudio so we can show you something cool.
 
 ## Running a Script
 
 Now we've done a lot here to get both R and RStudio installed and set up here, let's end with running one script!
-In this local repository for this lesson, you'll find a folder called `my first r run`.
-
-First, clone this repo to your local machine with the following commands.
+First, clone this repo we're working out of to your local machine with the following commands.
 
 ```
 git clone www.github.com/learn-co-curriculum/installing-r.git
 ```
-
-Then `cd` into the directory and open the `.Rproj` file in there.
+Then `cd` into the directory and open the `.rproj` file in there.
 
 ```
 cd installing-r
@@ -163,23 +167,40 @@ Doing this will open up another RStudio on your computer.
 The .Rproj file basically walls off the rest of your comptuer so RStudio thinks the entire universe of your project lives within this area.
 Using .Rproj files helps eliminate absolute paths and makes it so it's a lot easer to get your R code to run on others computers.
 
-With this file open, if you then go to where it says `Files` in the bottom right panel and then click "Tips Coverter.Rmd" you will open up your first RMarkdown file (the Juypter notebook of R).
-
+In this local repository for this lesson, you'll find a file called `tips_report.Rmd` that you should be able to see if you click the `File` tab on the bottom right quadrant of RStudio.
+This will open up your first RMarkdown file (the Juypter notebook of R).
 
 This file contains the data and narrative we will be using the next few lessons.
 We'll describe it more at the start of the next lesson!
 
 With this open, let's just click where it says `Knit` at the top to see what happens.
 
-![](img/r-install-7.png)
-* install 15
+![](img/rstudio-5.png)
+
+Note here that because you've done a fresh install of R, you might be prompted to install a lot of software.
+**Make sure you agree to all of this!!**.
+
+The first time you run this, you will also see something like this which asks you if you want to install the library (or suite of libraries we're going to use) this time.
+Make sure to also install this and say `Yes` when it asks you at the command prompt to install everything! 
+
+Typically we would do this at the command line with something like:
+
+```{r}
+install.packages("tidyverse")
+```
+
+But RStudio is smart and realises that we don't have it and we wanted to show you that! 
+
+Once all that software is installed, you should be able to run your script. 
 
 This will run the RMarkdown script and create a little report for you. 
 Notice it's an HTML file of your analysis meaning you can now just put the `file.html` that was just created on any website! 
 RMarkdown allows data scientists to make quick reports in HTML, LaTeX, or even Word formats.
 We just wanted to show off this cool tool before working in R. 
 
+## Conclusions
 
-
-
- 
+Go make yourself a coffee!
+You've just done a lot of good work.
+You've installed R, RStudio, and rendered your first RMarkdown file with RStudio.
+In our next lesson, we'll actually type some more R code.
