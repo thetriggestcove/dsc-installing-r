@@ -6,23 +6,23 @@ In this lesson we'll get R installed on your computer and begin to get you famil
 
 ## Objectives
 
-By the end of this lesson, you should be able to:
+You will be able to:
 
-* [ ] Get R installed on your computer
-* [ ] Have RStudio installed on your computer
-* [ ] Change the color scheme of RStudio 
-* [ ] Disable RStudio's default saving of .RData 
-* [ ] Run your first RMarkdown script
+* Get R installed on your computer
+* Have RStudio installed on your computer
+* Change the color scheme of RStudio 
+* Disable RStudio's default saving of .RData 
+* Run your first RMarkdown script
 
 ## Getting R 
 
->Over the course of the next few lessons we **won't** be running R in your browser, but rather putting it on your local machine.
+> Over the course of the next few lessons we **won't** be running R in your browser, but rather putting it on your local machine.
 This is unlike your previous learn.co work where you could run some of your code in the browser.
 For each of these lessons, you should `git clone` these repositories if you want to be able to run the code.
 
 You might already have some software that could run R, but in order to make sure everything works for this series of lessons, please be sure to follow these steps exactly so everything works well!
 
-This is especially true of you try to use the RStudio that comes along with [Anaconda](https://www.anaconda.com/); it's best to just do a fresh install of both R and RStudio.
+This is especially true if you try to use the RStudio that comes along with [Anaconda](https://www.anaconda.com/); it's best to just do a fresh install of both R and RStudio.
 Luckily R tends to be much easier to install and manage than Python. 
 
 So where do you get all things R?
@@ -43,7 +43,7 @@ If you then click on the where it says `R-4.x.x.pkg`, R will download on your co
 ![](img/r-install-3.png)
 
 You'll notice that R downloads pretty fast if you're on a decent internet connection.
-R `4.0.0` is only requires about 170MB. 
+R `4.0.0` only requires about 170MB. 
 
 If you then open up the package that is downloaded (Chrome shown here), you can just follow the install instructions in the install wizard 
 
@@ -164,7 +164,7 @@ git clone www.github.com/learn-co-curriculum/dsc-installing-r.git
 Then `cd` into the directory and open the `.rproj` file in there.
 
 ```
-cd dsciinstalling-r
+cd dsc-installing-r
 open dsc-installing-r.rproj
 ```
 
@@ -208,7 +208,7 @@ We just wanted to show off this cool tool before working in R.
 
 ![](img/faking-seaborn.png)
 
-## Conclusions
+## Summary
 
 Go make yourself a coffee!
 You've just done a lot of good work.
