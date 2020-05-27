@@ -2,22 +2,26 @@
 
 ## Introduction
 
-In this lesson we'll get R installed on your computer and begin to get you familiar with [RStudio](https://rstudio.com/), a data science IDE that many useRs like! 
+In this lesson we'll get R installed on your computer and begin to get you familiar with [RStudio](https://rstudio.com/), a data science IDE that many useRs like to use! 
 
 ## Objectives
 
 By the end of this lesson, you should be able to:
 
-* [ ] Have base R installed on a computer
-* [ ] Have Rstudio installed on their computer
-* [ ] Change color scheme of RStudio 
+* [ ] Get R installed on your computer
+* [ ] Have RStudio installed on your computer
+* [ ] Change the color scheme of RStudio 
 * [ ] Disable RStudio's default saving of .RData 
 * [ ] Run your first RMarkdown script
 
 ## Getting R 
 
-Over the course of the next few lessons we **won't** be running R in your browser, but rather putting it on your local machine.
-You might already have some software that could run R, but in order to make sure everything works please be sure to follow these steps exactly so everything works well!
+>Over the course of the next few lessons we **won't** be running R in your browser, but rather putting it on your local machine.
+This is unlike your previous learn.co work where you could run some of your code in the browser.
+For each of these lessons, you should `git clone` these repositories if you want to be able to run the code.
+
+You might already have some software that could run R, but in order to make sure everything works for this series of lessons, please be sure to follow these steps exactly so everything works well!
+
 This is especially true of you try to use the RStudio that comes along with [Anaconda](https://www.anaconda.com/); it's best to just do a fresh install of both R and RStudio.
 Luckily R tends to be much easier to install and manage than Python. 
 
@@ -50,13 +54,14 @@ You can verify that R has been installed by opening up your terminal and typing 
 
 ![](img/r-install-6.png)
 
-Try to type in somehing simple like:
+Try to type in something simple like
 
 ```{r}
 2 + 2
 ```
 
 into the console.
+
 It will look something like this: 
 
 ![](img/r-install-7.png)
@@ -69,16 +74,15 @@ To exit type:
 quit()
 ```
 
-Then tell it `n` for no saying you don't want to save your workspace! 
+Then tell it `n` for no saying you don't want to save your work space! 
 
 Now unless you're some sort of masochist, you're never going to actually run R from your terminal for your data science projects. 
 We need to get an IDE to help us out!
 
-
 ## RStudio
 
 Just like Python, there are many ways to interact with R as a programming language.
-One of the most popular choices at the moment, for reasons that will be made clear very soon, is [RStudio]().
+One of the most popular choices at the moment, for reasons that will be made clear very soon, is [RStudio](www.rstudio.com).
 It can be a bit confusing when getting into the world of R because [RStudio](https://rstudio.com/products/rstudio/download/) the IDE is created by [RStudio PBC](https://rstudio.com/) the company.
 As a fun fact, RStudio the company just announced that it is now a Public Benefit Corporation meaning that "corporate decisions must both align with this mission, as well as balance the interests of community, customers, employees, and shareholders".
 That's not super relevant to our install, but if you do talk to anyone in the R world, this was a very big deal.
@@ -106,6 +110,7 @@ Clicking this will take you down the page to this next image where you actually 
 ![](img/r-install-11.png)
 
 We of course want the free, open source one!
+It's important to notice that RStudio (the company) offers a lot of internal support for bigger data science teams. 
 
 ![](img/r-install-12.png)
 
@@ -113,7 +118,7 @@ And this takes you to where all the versions of RStudio live.
 
 ![](img/r-install-13.png)
 
-We can install Rstudio with just dragging and dropping on OSX.
+We can install RStudio with just dragging and dropping on OSX.
 
 ![](img/r-install-14.png)
 
@@ -138,7 +143,7 @@ I'd like you to go in the top toolbar then select `File > Preferences ...`.
 
 We can change here to `Solarized Dark`. 
 
-Now while we're here in Preferences, let's also do something that's going to save you a lot of pain in the long run which is make the default behavior to never save your workspace.
+Now while we're here in Preferences, let's also do something that's going to save you a lot of pain in the long run which is make the default behavior to never save your work space.
 
 ![](img/rstudio-3.png)
 
@@ -154,23 +159,24 @@ Now we've done a lot here to get both R and RStudio installed and set up here, l
 First, clone this repo we're working out of to your local machine with the following commands.
 
 ```
-git clone www.github.com/learn-co-curriculum/installing-r.git
+git clone www.github.com/learn-co-curriculum/dsc-installing-r.git
 ```
 Then `cd` into the directory and open the `.rproj` file in there.
 
 ```
-cd installing-r
-open installing-r.rproj
+cd dsciinstalling-r
+open dsc-installing-r.rproj
 ```
 
 Doing this will open up another RStudio on your computer.
-The .Rproj file basically walls off the rest of your comptuer so RStudio thinks the entire universe of your project lives within this area.
-Using .Rproj files helps eliminate absolute paths and makes it so it's a lot easer to get your R code to run on others computers.
+The `.rproj` file basically walls off the rest of your computer so RStudio thinks the entire universe of your project lives within this area.
+Using `.rproj` files helps eliminate absolute paths and makes it so it's a lot easier to get your R code to run on others computers.
+If you're serious about learning about good practices in working with [R and RStudio, please check out this e-book here (written in R)](https://rstats.wtf/index.html).
 
 In this local repository for this lesson, you'll find a file called `tips_report.Rmd` that you should be able to see if you click the `File` tab on the bottom right quadrant of RStudio.
 This will open up your first RMarkdown file (the Juypter notebook of R).
 
-This file contains the data and narrative we will be using the next few lessons.
+This file contains the data and narrative we will be using the next lessons.
 We'll describe it more at the start of the next lesson!
 
 With this open, let's just click where it says `Knit` at the top to see what happens.
@@ -191,7 +197,7 @@ Typically we would do this at the command line with something like:
 install.packages("tidyverse")
 ```
 
-But RStudio is smart and realises that we don't have it and we wanted to show you that! 
+But RStudio is smart and realizes that we don't have it and we wanted to show you that! 
 
 Once all that software is installed, you should be able to run your script. 
 

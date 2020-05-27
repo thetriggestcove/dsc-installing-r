@@ -1,11 +1,13 @@
 ---
 title: "Tips Report"
-author: "Dave"
+author: "Your Name Here!"
 date: "15/05/2020"
 output: html_document
+editor_options: 
+  chunk_output_type: console
 ---
 
-Imagine your you and your colleagues are teaching a lesson with the `tips.csv` dataset to group of students from different countries (England, Japan, India) who are about to take their first visit to the United State of America.
+Imagine your you and your colleagues are teaching a lesson with the `tips.csv` data set to group of students from different countries (England, Japan, India) who are about to take their first visit to the United State of America.
 To get your students used to the idea of how much they are expected to tip their servers, we need to make new columns that convert the USD column to pounds, yen, and Australian dollars.
 
 Note we're going to do this the `tidyverse` way! 
@@ -33,6 +35,7 @@ Let's also make a ggplot and recreate what's in the [seaborn](https://seaborn.py
 
 ```{r}
 tips %>%
+  mutate(time = factor(time, levels = c("Lunch","Dinner"))) %>%
   ggplot(aes(
     x = total_bill,
     y = tip,
@@ -40,12 +43,14 @@ tips %>%
     shape = smoker,
     size = size
   )) +
-  geom_point() +
+  scale_shape_manual(values=c(16, 4)) +
+  geom_point(aes(shape = smoker)) +
   facet_wrap( ~ time) +
   labs(x = "Total Bill",
        y = "Tip",
-       title = "Tips Predict Total Bill",
-       subtitle = "Split by Time and Smoker")
+       title = "Total Bill vs Tip",
+       subtitle = "Split by Time and Smoker") +
+  scale_color_manual(values=c("#4C71B0", "#DF8C5F")) 
   
   
 ```
