@@ -29,30 +29,30 @@ So where do you get all things R?
 The most up-to-date version of R can always be found on The Comprehensive R Archive Network or [CRAN](https://cran.r-project.org/).
 If you navigate to `https://cran.r-project.org/` you will see this page here:
 
-![r install image 1](https://raw.githubusercontent.com/learn-co-curriculum/dsc-installing-r/master/img/r-install-1.png)
+![r install image 1](https://raw.githubusercontent.com/learn-co-curriculum/dsc-installing-r/master/r-install-1.png)
 
 Follow the links in the top box of `Download and Install R` to get R on your computer.
 The following series of screenshots will show what this process looks like if you're doing this as of May 2020 on an OSX system. 
 
 After you click `Download R for (Mac) OS X`, you should then see this image below:
 
-![r install image 2](https://raw.githubusercontent.com/learn-co-curriculum/dsc-installing-r/master/img/r-install-2.png)
+![r install image 2](https://raw.githubusercontent.com/learn-co-curriculum/dsc-installing-r/master/r-install-2.png)
 
 If you then click on the where it says `R-4.x.x.pkg`, R will download on your computer. 
 
-![r install image 3](https://raw.githubusercontent.com/learn-co-curriculum/dsc-installing-r/master/img/r-install-3.png)
+![r install image 3](https://raw.githubusercontent.com/learn-co-curriculum/dsc-installing-r/master/r-install-3.png)
 
 You'll notice that R downloads pretty fast if you're on a decent internet connection. R `4.0.0` only requires about 170MB. 
 
 If you then open up the package that is downloaded (Chrome shown here), you can just follow the install instructions in the install wizard 
 
-![r install image 4](https://raw.githubusercontent.com/learn-co-curriculum/dsc-installing-r/master/img/r-install-4.png)
+![r install image 4](https://raw.githubusercontent.com/learn-co-curriculum/dsc-installing-r/master/r-install-4.png)
 
-![r install image 5](https://raw.githubusercontent.com/learn-co-curriculum/dsc-installing-r/master/img/r-install-5.png)
+![r install image 5](https://raw.githubusercontent.com/learn-co-curriculum/dsc-installing-r/master/r-install-5.png)
 
 You can verify that R has been installed by opening up your terminal and typing in `R`.
 
-![r install image 6](https://raw.githubusercontent.com/learn-co-curriculum/dsc-installing-r/master/img/r-install-6.png)
+![r install image 6](https://raw.githubusercontent.com/learn-co-curriculum/dsc-installing-r/master/r-install-6.png)
 
 Try to type in something simple like:
 
@@ -64,7 +64,7 @@ into the console.
 
 It will look something like this: 
 
-![r install image 7](https://raw.githubusercontent.com/learn-co-curriculum/dsc-installing-r/master/img/r-install-7.png)
+![r install image 7](https://raw.githubusercontent.com/learn-co-curriculum/dsc-installing-r/master/r-install-7.png)
 
 It works like a calculator just like Python! 
 
@@ -86,7 +86,7 @@ So how do we get RStudio the IDE?
 
 Let's navigate over to `RStudio.com` and again follow this set of install instructions.
 
-![r install image 8](https://raw.githubusercontent.com/learn-co-curriculum/dsc-installing-r/master/img/r-install-8.png)
+![r install image 8](https://raw.githubusercontent.com/learn-co-curriculum/dsc-installing-r/master/r-install-8.png)
 
 Now if you're following these install instructions near May of 2020, you'll notice that RStudio's homepage is actually showing off a recent push that the company has been doing to have RStudio be able to run Python! You can read more about that [here at this link](https://blog.rstudio.com/2020/04/02/rstudio-connect-1-8-2/).
 
@@ -94,29 +94,29 @@ But let's not get distracted!
 
 If you go from the home page and hover over products you can get a link to find where to get RStudio
 
-![r install image 9](https://raw.githubusercontent.com/learn-co-curriculum/dsc-installing-r/master/img/r-install-9.png)
+![r install image 9](https://raw.githubusercontent.com/learn-co-curriculum/dsc-installing-r/master/r-install-9.png)
 
 From here we want to get RStudio for desktop:
 
-![r install image 10](https://raw.githubusercontent.com/learn-co-curriculum/dsc-installing-r/master/img/r-install-10.png)
+![r install image 10](https://raw.githubusercontent.com/learn-co-curriculum/dsc-installing-r/master/r-install-10.png)
 
 Clicking this will take you down the page to this next image where you actually get RStudio
 
-![r install image 11](https://raw.githubusercontent.com/learn-co-curriculum/dsc-installing-r/master/img/r-install-11.png)
+![r install image 11](https://raw.githubusercontent.com/learn-co-curriculum/dsc-installing-r/master/r-install-11.png)
 
 We of course want the free, open source one!
 
 It's important to notice that RStudio (the company) offers a lot of internal support for bigger data science teams. 
 
-![r install image 12](https://raw.githubusercontent.com/learn-co-curriculum/dsc-installing-r/master/img/r-install-12.png)
+![r install image 12](https://raw.githubusercontent.com/learn-co-curriculum/dsc-installing-r/master/r-install-12.png)
 
 And this takes you to where all the versions of RStudio live.
 
-![r install image 13](https://raw.githubusercontent.com/learn-co-curriculum/dsc-installing-r/master/img/r-install-13.png)
+![r install image 13](https://raw.githubusercontent.com/learn-co-curriculum/dsc-installing-r/master/r-install-13.png)
 
 We can install RStudio with just dragging and dropping on OSX.
 
-![r install image 14](https://raw.githubusercontent.com/learn-co-curriculum/dsc-installing-r/master/img/r-install-14.png)
+![r install image 14](https://raw.githubusercontent.com/learn-co-curriculum/dsc-installing-r/master/r-install-14.png)
 
 Once this has been installed with the drag and drop, we just double click to open up RStudio! 
 
@@ -124,7 +124,7 @@ Once this has been installed with the drag and drop, we just double click to ope
 
 RStudio is the GUI for all things R. When you first open RStudio, typically you will see four separate panels.
 
-![r studio setup image 1](https://raw.githubusercontent.com/learn-co-curriculum/dsc-installing-r/master/img/rstudio-1.png)
+![r studio setup image 1](https://raw.githubusercontent.com/learn-co-curriculum/dsc-installing-r/master/rstudio-1.png)
 
 On the top left is your script editor where you write your code, on the bottom left you have your console where your code gets run. On the top right you see the environment-- something we'll talk about soon-- and then on the bottom right we see our Viewer.  You can change the positions of this if you'd like and [can find instructions to do that here](https://support.rstudio.com/hc/en-us/articles/200549016-Customizing-RStudio) and can also change the color schemes of your editor if you navigate to the preferences.
 
@@ -132,15 +132,15 @@ Let's first try that!
 
 I'd like you to go in the top toolbar then select `File > Preferences ...`.
 
-![r studio setup image 2](https://raw.githubusercontent.com/learn-co-curriculum/dsc-installing-r/master/img/rstudio-2.png)
+![r studio setup image 2](https://raw.githubusercontent.com/learn-co-curriculum/dsc-installing-r/master/rstudio-2.png)
 
 We can change here to `Solarized Dark`. 
 
 Now while we're here in Preferences, let's also do something that's going to save you a lot of pain in the long run which is make the default behavior to never save your work space.
 
-![r studio setup image 3](https://raw.githubusercontent.com/learn-co-curriculum/dsc-installing-r/master/img/rstudio-3.png)
+![r studio setup image 3](https://raw.githubusercontent.com/learn-co-curriculum/dsc-installing-r/master/rstudio-3.png)
 
-![r studio setup image 4](https://raw.githubusercontent.com/learn-co-curriculum/dsc-installing-r/master/img/rstudio-4.png)
+![r studio setup image 4](https://raw.githubusercontent.com/learn-co-curriculum/dsc-installing-r/master/rstudio-4.png)
 
 Alright, let's now close this out and try to run something!
 
@@ -179,7 +179,7 @@ Note here that because you've done a fresh install of R, you might be prompted t
 
 The first time you run this, you will also see something like this which asks you if you want to install the library (or suite of libraries we're going to use) this time. Make sure to also install this and say `Yes` when it asks you at the command prompt to install everything! 
 
-![r install warning](https://raw.githubusercontent.com/learn-co-curriculum/dsc-installing-r/master/img/installwarning.png)
+![r install warning](https://raw.githubusercontent.com/learn-co-curriculum/dsc-installing-r/master/installwarning.png)
 
 Typically we would do this at the command line with something like:
 
@@ -195,7 +195,7 @@ This will run the RMarkdown script and create a little report for you. Notice it
 
 We just wanted to show off this cool tool before working in R. 
 
-![r faking seaborn](https://raw.githubusercontent.com/learn-co-curriculum/dsc-installing-r/master/img/faking-seaborn.png)
+![r faking seaborn](https://raw.githubusercontent.com/learn-co-curriculum/dsc-installing-r/master/faking-seaborn.png)
 
 ## Summary
 
