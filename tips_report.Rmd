@@ -18,7 +18,7 @@ library(tidyverse)
 tips <- read_csv("tips.csv")
 
 converted_tips <- tips %>% 
-  select(-X1) %>% 
+  #select(-X1) %>%
   mutate(gbp_total= total_bill * 0.81) %>%
   mutate(gbp_tips = tip * 0.81) %>%
   mutate(yen_total = total_bill * 106) %>%
